@@ -36,3 +36,12 @@ footer {
   background-color: #3F2B22;
   border-color: #333;
 }
+
+.panel-default {
+    border-color: #3F2B22;
+}
+.panel-default > .panel-heading {
+    background-color: #cdae51;
+    border-color: #3F2B22;
+    color: #fff;
+}
