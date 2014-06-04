@@ -8,6 +8,11 @@ footer {
 	text-align: center;
 }
 
+body {
+	padding-top: 70px;
+}
+
+
 .glyphicon {
 	color: #cdae51;
 }
@@ -40,8 +45,13 @@ footer {
 .panel-default {
     border-color: #3F2B22;
 }
+
 .panel-default > .panel-heading {
     background-color: #cdae51;
     border-color: #3F2B22;
     color: #fff;
+}
+
+.breadcrumb > li + li:before {
+  content: none;
 }
